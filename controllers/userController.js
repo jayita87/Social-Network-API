@@ -1,8 +1,6 @@
 const { ObjectId } = require('mongoose').Types;
 const { User } = require('../models');
 
-
-
 module.exports = {
   // Get all users
   getUsers(req, res) {
